@@ -102,7 +102,7 @@ def inference_tone(message):    # message = "상품번호가 1234567890인 상�
     )
 
     # 챗gpt 1차 답변
-    response.choices[0]   
+    print("########## 1차 답변 response.choices[0]: ", response.choices[0])  
     # Choice(finish_reason='tool_calls', index=0, logprobs=None, message=ChatCompletionMessage(content=None, refusal=None, role='assistant', function_call=None, tool_calls=[ChatCompletionMessageToolCall(id='call_WWQqXgHb4q87M4b7uYJAceGo', function=Function(arguments='{"product_no":123}', name='get_product'), type='function')]))
     
     # Function calling 관련 질문과 일반적 질문을 분기처리
