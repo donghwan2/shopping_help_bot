@@ -26,3 +26,6 @@ streamlit run chatbot_function_calling_tone.py
 # Project Structure
 
 ![project_structure](shop_helper_proj_structure.png)
+
+# 실행 화면
+![web_display.png](web_display.png)
